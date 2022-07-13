@@ -19,6 +19,7 @@ from cover import get_cover
 import time
 import cloudscraper
 from args import *
+from encode import ffmpeg_encode
 import ssl
 # In[2]:
 
@@ -130,3 +131,6 @@ deleteMp4(folderPath)
 # In[11]:
 # get cover
 get_cover(html_file=htmlfile, folder_path=folderPath)
+
+
+ffmpeg_encode(folderPath, dirName)
