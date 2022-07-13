@@ -19,7 +19,10 @@ from cover import get_cover
 import time
 import cloudscraper
 from args import *
+import ssl
 # In[2]:
+
+ssl._create_default_https_context = ssl._create_unverified_context
 
 parser = get_parser()
 args = parser.parse_args()
