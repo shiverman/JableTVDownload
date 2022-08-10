@@ -130,7 +130,7 @@ deleteMp4(folderPath)
 
 # In[11]:
 # get cover
-get_cover(html_file=htmlfile, folder_path=folderPath)
+#get_cover(html_file=htmlfile, folder_path=folderPath)
 
 
 ffmpeg_encode(folderPath, dirName)
